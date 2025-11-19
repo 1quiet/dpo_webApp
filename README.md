@@ -2,5 +2,5 @@
 ## Проект
 Этот репозиторий является каркасом для будущего веб-приложения.
 ## Ссылки
-- [Публичная страница на GitHub Pages](https://1quiet.github.io/
-dpo_webApp/)
+- [Публичная страница на GitHub Pages]([https://1quiet.github.io/
+dpo_webApp/](https://1quiet.github.io/dpo_webApp/))
