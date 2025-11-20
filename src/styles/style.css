@@ -1,5 +1,11 @@
 header {
-    font-family: 'Space Grotesk', sans-serif;
+    font-size: x-large;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    font-size: large;
+    font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -11,8 +17,12 @@ header {
 }
 
 .right_imgs {
+    width: 50px;
+    height: auto;
     display: flex;
     align-items: center;
+    padding: 8px;
+    margin: 10px;
 }
 
 .left_imgs {
@@ -28,4 +38,37 @@ header {
 .logo {
     font-size: 24px;
     font-weight: 300;
+}
+
+.all_types {
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px 550px;
+}
+
+.btn_view_collection {
+
+    width: 130px;
+    height: 50px;
+}
+
+.welcome_cont {
+    color: aliceblue;
+    width: 800px;
+    height: 300px;
+    align-items: center;
+    padding: 60px 50px;
+    background-color: #2a244b;
+}
+
+.main_text_welcome_cont {
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+}
+
+.bottom_text_welcome_cont {
+    font-family: "Montserrat";
+    font-size: small;
 }
