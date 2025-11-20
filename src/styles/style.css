@@ -1,0 +1,31 @@
+header {
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 15px 20px;
+}
+
+.right_imgs {
+    display: flex;
+    align-items: center;
+}
+
+.left_imgs {
+    display: flex;
+    align-items: center;
+}
+
+.central_name {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 300;
+}
