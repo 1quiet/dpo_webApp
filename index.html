@@ -7,8 +7,9 @@
     <meta property="og.title" content="Avion. Мебельный магазин">
     <meta property="og.image" content=/assets/Лого.png">
     <meta property="og.description" content="Мы продаем мебель и сайт у нас имба">
-    <link rel="stylesheet" href="/src/styles/style.css">
-    <link rel="icon" href="/assets/icons8-мебель-96.png">
+    <link rel="stylesheet" href="src/styles/reset.css">
+    <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="icon" href="assets/icons8-мебель-96.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap" rel="stylesheet">
@@ -24,48 +25,226 @@
     <header>
         <div class="container">
             <span class="left_imgs">
-                <div><img src="/assets/Иконки/Search.png"></div>
+                <div><img src="assets/Иконки/Search.png"></div>
             </span>
             <span class="central_name">
                 <div class="">Avion</div>
             </span>
             <span class="right_imgs">
-                <div><img src="/assets/Иконки/Shopping--cart.png"></div>
-                <div><img src="/assets/Иконки/User--avatar.png"></div>
+                <div><img src="assets/Иконки/Shopping--cart.png"></div>
+                <div><img src="assets/Иконки/User--avatar.png"></div>
             </span>
         </div>
     </header>
     <hr>
 
     <main>
-        <div class="all_types">
-            <span>Plant pots</span>
-            <span>Ceramics</span>
-            <span>Tables</span>
-            <span>Chairs</span>
-            <span>Crockery</span>
-            <span>Tableware</span>
-            <span>Cutlery</span>
-        </div>
+        <!-- Колонки -->
+        <nav class="all_types">
+            <ul>
+                <li>Plant pots</li>
+                <li>Ceramics</li>
+                <li>Tables</li>
+                <li>Chairs</li>
+                <li>Crockery</li>
+                <li>Tableware</li>
+                <li>Cutlery</li>
+            </ul>
+        </nav>
 
+        <!-- Приветственный стул -->
         <div class="welcome_cont">
-            <div class="main_text_welcome_cont">
-                The future brand for the<br> future, with timeless designs
-            </div>
-            <button class="btn_view_collection" style="font-family: Nunito" ;>
-                View collection
-            </button>
+                <div>
+                    <div class="main_text_welcome_cont" style="color: white;">
+                        The future brand for the<br> future, with timeless designs
+                    </div>
+                    <button class="btn_view_collection" style="font-family: Nunito; color: white;" ;>
+                        View collection
+                    </button>
+                    <div class="bottom_text_welcome_cont" style="color: white;">
+                        A new era in eco friendly furniture with Avelon, the French luxury retail brand<br>
+                        with nice fonts, tasteful colors and a beautiful way to display things digitally<br>
+                        using modern web technologies.
+                    </div>
+                </div>
+            <img src="assets/Фото/Right Image.png" class="chair_welcome_cont"> 
+        </div>
 
-            <div class="bottom_text_welcome_cont">
-                A new era in eco friendly furniture with Avelon, the French luxury retail brand<br>
-                with nice fonts, tasteful colors and a beautiful way to display things digitally<br>
-                using modern web technologies.
+        <!-- Дифферент бренд -->
+        <div class="name_different">What makes our brand different</div>
+    
+        <div class="differents">
+            <div class="diff_blocks">
+                <img src="assets/Иконки/Delivery.png">
+                <div class="h2_text">Next day as standart</div>
+                <div class="default_text">
+                    Order before 3pm and get your order<br>
+                    the nex t day as standard
+                </div>
+            </div>
+
+            <div class="diff_blocks">
+                <img src="assets/Иконки/Checkmark--outline.png">
+                <div class="h2_text">Made by true artisans</div>
+                <div class="default_text">
+                    Handmade crafted goods made with<br>
+                    real passion and craftmanship
+                </div>
+            </div>
+
+            <div class="diff_blocks">
+                <img src="assets/Иконки/Purchase.png">
+                <div class="h2_text">Unbeatable prices</div>
+                <div class="default_text">For our materials and quality you<br>
+                     won’t find bet ter prices anywhere
+                </div>
+            </div>
+
+            <div class="diff_blocks">
+                <img src="assets/Иконки/Sprout.png">
+                <div class="h2_text">Recycled packaging</div>
+                <div class="default_text">
+                    We use 100% recycled packaging to<br>
+                    ensure our footprint is manageable
+                </div>
             </div>
         </div>
 
+        <div class="h2_text" style="text-align: left; margin-left: 100px; margin-top: 80px;">New ceramics</div>
+            <div class="all_ceramics">
 
+                <div class="chair">
+                    <img src="assets/Фото/Photo.png" class="img_ceramcs">
+                    <div class="text">The Dandy chair<br>£250</div>
+                </div>
 
+                <div class="vase">
+                    <img src="assets/Фото/Photo (11).png" class="img_ceramcs">
+                    <div class="text">Rustic V ase Set<br>£ 155</div>
+                </div>
+
+                <div>
+                    <img src="assets/Фото/Photo (1).png" class="img_ceramcs">
+                    <div class="text">The Silky V ase<br>£ 125</div>
+                </div>
+
+                <div>
+                    <img src="assets/Фото/Photo (2).png" class="img_ceramcs">
+                <div class="text">The Lucy Lamp<br>£ 3 99</div>
+
+            </div>
+        </div>
+        <div class="collection_btn_cer">
+        <button class="collection_btn_ceramcs">View collection</button>
+        </div>
+
+        <div class="popular_prods">
+            <div class="h2_text" style="padding: 50px 100px;">Our popular products</div>
+            <div class="cards">
+                <div id="sofa">
+                    <img src="assets/Фото/Large.png" style="display: block;">
+                    <div class="text">The Poplar suede sofa<br>£980</div>
+                </div>
+
+                <div id="chair-popular">
+                    <img src="assets/Фото/Right Image.png" style="max-height: 375px;">
+                    <div class="h2_text">The Dandy chair<br>£250</div>
+                </div>
+
+                <div id="black-chair-popular">
+                    <img src="assets/Фото/Photo (3).png">
+                    <div class="h2_text">The Dandy chair<br>£250</div>
+                </div>
+            </div>
+
+            <div class="collection_btn_cer" id="btn-view-coll__popular-prods">
+            <button class="collection_btn_ceramcs">View collection</button>
+            </div>
+        </div>
+
+        <div class="block-join">
+            <div class="h2_text" style="text-align: center;">Join the club and get the benefits</div>
+            <div class="default_text" style="text-align: center;">
+                Sign up for our newsletter and receive exclusive offers on new
+                ranges, sales, pop up stores and more
+            </div>
+            <div style="display: flex; justify-content: center; margin-top: 20px;">
+            <input type="email" class="form-email" placeholder="your@email.ru">
+            <button type="submit" class="btn-signup">Sign up</button>
+            </div>
+        </div>
+
+        <div class="brand-history">
+            <div class="text-join-part">
+                <div class="h2_text" id="main-text">
+                    From a studio in London to a global brand with<br>over 400 outlets
+                </div>
+                <div class="default_text">
+                    <p id="paragraph-1">When we star ted Avion, the idea was simple. Make high quality furniture<br>
+                    affordable and available for the mass market.</p>
+                    <p id="paragraph-2">Handmade, and lovingly craft ed furniture and homeware is what we live,<br>
+                    breathe and design so our Chelsea boutique become the hotbed for the<br>
+                    London interior design community.</p>
+                </div>
+
+                <div>
+                    <button type="button" name="get-in-touch" class="btn-get-in-touch">Get in touch</button>
+                </div>
+            </div>
+            <img src="assets/Фото/Image.png" style="width: 50%;">
+        </div>
     </main>
+
+    <footer>
+        <div class="footer-div">
+            <div id="upper-foot">
+
+                <div id="footer-menu">
+                    <div class="h2_text">Menu</div>
+                    <ul class="default_text" style="font-size: medium;">
+                        <li>New arrivals</li>
+                        <li>Best sellers</li>
+                        <li>Recently viewed</li>
+                        <li>Popular this week</li>
+                        <li>All products</li>
+                    </ul>
+                </div>
+
+                <div id="footer-categories">
+                    <div class="h2_text">Categories</div>
+                        <ul class="default_text" style="font-size: medium;">
+                            <li>Crockery</li>
+                            <li>Furniture</li>
+                            <li>Homeware</li>
+                            <li>Plant pots</li>
+                            <li>Chairs</li>
+                            <li>Crocker</li>
+                        </ul>
+                </div>
+
+                <div id="footer-company">
+                    <div class="h2_text">Our company</div>
+                        <ul class="default_text" style="font-size: medium;">
+                            <li>About us</li>
+                            <li>Vacancies</li>
+                            <li>Contact us</li>
+                            <li>Privacy</li>
+                            <li>Returns policy</li>
+                        </ul>
+                </div>
+            </div>
+            <hr style="margin-top: 50px;margin-left: 30px;margin-right: 30px; height: 2px; border: 0; background: #433a7a;">
+            <div id="lower_foot">
+                <p style="flex: 1; margin-left: 30px;">&copy; Copyright 2022 Avion LTD</p>
+                <div class="imgs_footer">
+                    <img src="assets/Иконки/Logo--linkedin.png">
+                    <img src="assets/Иконки/Logo--pinterest.png">
+                    <img src="assets/Иконки/Logo--skype.png">
+                </div>
+            </div>
+                
+        </div>
+    </footer>
 
 </body>
 

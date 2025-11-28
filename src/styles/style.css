@@ -44,31 +44,220 @@ main {
     font-family: "Montserrat";
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: center;
     padding: 20px 550px;
-}
-
-.btn_view_collection {
-
-    width: 130px;
-    height: 50px;
+    width: 100%;
 }
 
 .welcome_cont {
-    color: aliceblue;
-    width: 800px;
-    height: 300px;
+    margin: 100px;
+    background-color: #2a244c;
+    width: 1200px;
+    height: 600px;
+    display: flex;
     align-items: center;
-    padding: 60px 50px;
-    background-color: #2a244b;
+}
+
+.btn_view_collection {
+     margin: 20px;
+     align-self: center;
+    background-color: #415168;
+    width: 180px;
+    height: 80px;
+    border: none;
+}
+
+.chair_welcome_cont {
+    width: 50%;
+    height: 100%;
+    align-self: flex-end;
+    overflow: hidden;
+
 }
 
 .main_text_welcome_cont {
+    padding: 20px;
+    margin-bottom: auto;
+    align-self:last baseline;
+    flex: 1;
     font-family: "Montserrat", sans-serif;
     font-size: x-large;
 }
 
 .bottom_text_welcome_cont {
+    padding: 20px;
+    position: absolute;
+    margin-top: auto;
+    align-items: flex-start;
+    align-self:last baseline;
+    flex: 1;
     font-family: "Montserrat";
     font-size: small;
+}
+
+
+/* .chair_welcome_cont img {
+    width: 100%;
+    height: 100%;
+} */
+
+.name_different {
+    margin-top:100px;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Montserrat", sans-serif;
+}
+
+.differents {
+    align-self: center;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.default_text {
+    font-family: "Nunito", sans-serif;
+    font-size: medium;
+}
+
+
+.h2_text {
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+}
+
+.diff_blocks {
+    margin-top: 10px;
+    flex: 1;
+}
+
+.all_ceramics {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+
+.img_ceramcs {
+    width: 305px;
+    height: 375px;
+}
+
+.collection_btn_ceramcs {
+    width: 200px;
+    height: 70px;
+    border: none;
+}
+
+.collection_btn_cer {
+    display: flex;
+    justify-content: center;   
+    margin-top: 30px; 
+    margin-bottom: 30px;
+}
+
+.text {
+    font-family: "Montserrat", sans-serif;
+    font-size: large;
+}
+
+.cards {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: space-between;
+}
+
+.block-join {
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+    padding: 70px;
+    border: 80px solid #e3e3e3;
+}
+
+.form-email {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 0px;
+    border: none;
+    background-color: #ebebeb;
+}
+
+.btn-signup {
+    background-color: #2a244c;
+    color: white;
+    width: 50px;
+    border: none;
+}
+
+.brand-history {
+    display: flex;
+}
+
+.text-join-part {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 50%;
+}
+
+
+#paragraph-2 {
+    margin-top: 10px
+}
+
+#paragraph-1 {
+        margin-top: 10px
+}
+
+.btn-get-in-touch {
+    border: none;
+    margin-top: 300px;
+    font-family: "Nunito", sans-serif;
+    font-size: large;
+    width: 200px;
+    height: 80px;
+}
+
+.footer-div {
+    color: white;
+    width: 100%;
+    height: 700px;
+    background-color: #2a244c;
+}
+
+.upper-foot {
+    display: flex;
+    gap: 20px;
+}
+
+#footer-menu {
+    flex: 1;
+}
+
+#footer-categories {
+    flex: 1;
+}
+
+#footer-company {
+    flex: 1;
+}
+
+#lower_foot {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.imgs_footer {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+
+.imgs_footer img{
+    max-width: 100%;
+    height: auto;
 }
