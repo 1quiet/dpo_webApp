@@ -47,7 +47,7 @@ main {
     justify-content: space-evenly;
     align-items: center;
     margin: 20px 100px;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .all_types li {
@@ -78,10 +78,25 @@ main {
 }
 
 .btn-view-collection {
-    padding: 20px;
+    padding: 50px;
     position: absolute;
     align-self: self-start;
-    margin-top: 200px;
+    margin-top: 250px;
+    transition: all 0.1s ease;
+}
+
+.btn_view_collection {
+    border: 1px ;
+}
+
+.btn-view-collection button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0px 1px 1px 1px rgb(38, 38, 38);
+    background-color:#3e4c62;
+}
+
+.btn-view-collection button:active {
+    transform: translateY(0.5px);
 }
 
 .chair_welcome_cont {
@@ -91,7 +106,7 @@ main {
 }
 
 .main_text_welcome_cont {
-    padding: 30px;
+    padding: 50px;
     margin-bottom: auto;
     flex: 1;
     font-family: "Montserrat", sans-serif;
@@ -99,7 +114,7 @@ main {
 }
 
 .bottom_text_welcome_cont {
-    padding: 30px;
+    padding: 50px;
     position: absolute;
     margin-top: auto;
     align-items: flex-start;
@@ -126,7 +141,11 @@ main {
     align-self: center;
     display: flex;
     gap: 20px;
-    padding: 20px;
+    padding: 10px;
+    justify-content: space-evenly;
+    justify-content: center;
+    margin-left: 65px;
+
 }
 
 .default_text {
@@ -160,6 +179,17 @@ main {
     width: 200px;
     height: 70px;
     border: none;
+}
+
+.collection_btn_ceramcs:hover {
+    transform: translateY(-1px);
+    background-color: #dfdfdf;
+    border: 1px solid rgb(213, 213, 213);
+    /* box-shadow: 1px 1px 2px 0px black; */
+}
+
+.collection_btn_ceramcs:active {
+    transform: translateY(1px);
 }
 
 .collection_btn_cer {
@@ -203,7 +233,14 @@ main {
     color: white;
     width: 50px;
     border: none;
+    box-shadow: 1px 0px 2px 0px black;
 }
+
+.btn-signup:active {
+    transform: translateY(1px);
+}
+
+
 
 .brand-history {
     display: flex;
@@ -232,6 +269,16 @@ main {
     font-size: large;
     width: 200px;
     height: 80px;
+}
+
+.btn-get-in-touch:hover {
+    transform: translateY(-1px);
+    background-color: #dfdfdf;
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.btn-get-in-touch:active {
+    transform: translateY(1px);
 }
 
 .footer-div {
@@ -281,3 +328,12 @@ main {
     height: 32px;
     width: 32px;
 }
+
+.href-none-undline {
+    text-decoration: none;
+}
+
+.href-none-undline:active {
+    transform: translateY('2px');
+}
+
