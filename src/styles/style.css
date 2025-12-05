@@ -61,8 +61,8 @@ main {
 
 .welcome_cont {
     background-color: #2a244c;
-    width: 1200px;
-    height: 600px;
+    width: 1600px;
+    height: 660px;
     display: flex;
     align-self: center;
     position: static;
@@ -86,13 +86,13 @@ main {
 }
 
 .btn_view_collection {
-    border: 1px ;
+    border: 1px;
 }
 
 .btn-view-collection button:hover {
     transform: translateY(-1px);
     box-shadow: 0px 1px 1px 1px rgb(38, 38, 38);
-    background-color:#3e4c62;
+    background-color: #3e4c62;
 }
 
 .btn-view-collection button:active {
@@ -165,6 +165,7 @@ main {
 }
 
 .all_ceramics {
+    /* max-width: 1800px; */
     display: flex;
     justify-content: space-between;
     padding: 10px 100px;
@@ -178,7 +179,7 @@ main {
 .collection_btn_ceramcs {
     width: 200px;
     height: 70px;
-    border: none;
+    border: 1px solid #e3e3e3;
 }
 
 .collection_btn_ceramcs:hover {
@@ -263,7 +264,7 @@ main {
 }
 
 .btn-get-in-touch {
-    border: none;
+    border: 1px solid #e3e3e3;
     margin-top: 300px;
     font-family: "Nunito", sans-serif;
     font-size: large;
@@ -336,4 +337,3 @@ main {
 .href-none-undline:active {
     transform: translateY('2px');
 }
-
