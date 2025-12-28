@@ -337,3 +337,142 @@ main {
 .href-none-undline:active {
     transform: translateY('2px');
 }
+
+/* DESKTOP FIRST - Breakpoints: 1199px, 991px, 767px, 575px, 399px */
+
+/* Ноутбуки ≤1199px */
+@media (max-width: 1199px) {
+    .container {width: 100%;}
+    .welcomecont { width: 1000px; height: 500px; }
+    .allceramics, .content-grid__container { padding: 0 50px; }
+    .nav__list { gap: 1.5rem; margin: 20px 50px; }
+}
+
+/* Планшеты ≤991px */
+@media (max-width: 991px) {
+    .container {
+        width: 100%;flex-direction: column; gap: 10px; padding: 10px; 
+    }
+
+    .welcomecont { 
+        height: 400px; flex-direction: column; 
+    }
+
+    .maintextwelcomecont, .bottomtextwelcomecont { 
+        padding: 20px; text-align: center;
+    }
+
+    .nav__list { 
+        flex-direction: column; 
+        gap: 1rem; 
+        margin: 10px 20px; 
+        align-items: center;
+    }
+
+    .allceramics { 
+        flex-direction: column; align-items: center; gap: 20px; 
+    }
+}
+
+/* Маленькие планшеты ≤767px */
+@media (max-width: 767px) {
+
+    .content-grid__container { 
+        grid-template-columns: 1fr; 
+        padding: 0 20px; 
+        gap: 1rem;
+    }
+    .cards { 
+        flex-direction: column; align-items: center; gap: 20px; 
+    }
+
+    .imgceramcs { 
+        width: 100%; height: auto; max-width: 300px; 
+    }
+
+    .alltypes { 
+        margin: 10px 20px; 
+    }
+}
+
+/* Мобильные ≤575px */
+@media (max-width: 575px) {
+
+    .welcome_cont {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .welcomecont { 
+        height: 350px;
+        width: 100%; 
+    }
+
+    .btn-view-collection { 
+        position: static; 
+        margin: 20px auto; 
+        padding: 15px 30px; 
+    }
+
+    .all_types {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .nav__link { 
+        display: block; 
+        text-align: center; 
+        padding: 10px; 
+        width: 100%; 
+    }
+
+    .differents { 
+        flex-direction: column; gap: 20px; 
+    }
+
+    .all_ceramics { 
+        flex-direction: column; padding: 20px 60px; gap: 25px; 
+    }
+
+    .cards { 
+        margin: 0px 60px; 
+    }
+
+    .brand-history {
+        flex-direction: column;
+    }
+    .text-join-part {
+        margin-top: 200px;
+        width: 80%;
+    }
+
+    .btn-get-in-touch {
+        margin-top: 100px;
+    }
+}
+
+/* Очень маленькие экраны ≤399px */
+@media (max-width: 399px) {
+  body { 
+    font-size: 14px; 
+}
+
+  .content-grid__container { 
+    padding: 0 10px; 
+}
+
+  .nav__list { 
+    gap: 0.5rem; 
+}
+
+  .imgceramcs { 
+    max-width: 250px; 
+}
+
+}
